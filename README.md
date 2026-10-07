@@ -20,6 +20,10 @@ Windows may show a "Windows protected your PC" (SmartScreen) notice because the 
 
 Click **Install Stream Deck plugin** in the app, then drag **Play Sound** onto a key.
 
+## Source code and license
+
+YTSoundboard is open source under the MIT license: https://github.com/rmstep/YTSoundboard
+
 ## Third-party software
 
 - [VB-Cable](https://vb-audio.com/Cable/) is the property of VB-Audio Software and is **not** included; it is downloaded from VB-Audio on request.
