@@ -13,7 +13,7 @@ Windows may show a "Windows protected your PC" (SmartScreen) notice because the 
 1. Open YTSoundboard and click **Install virtual mic (VB-Cable)**. The app downloads VB-Cable from vb-audio.com, verifies its signature, and starts its installer. Approve the Windows prompt, click **Install Driver**, and reboot if asked.
 2. Choose your real microphone under **Real microphone**. The virtual mic is selected automatically.
 3. In Discord, OBS or your game, set the microphone to **CABLE Output**.
-4. Install the Chrome extension (`ytsoundboard-extension.zip` in the release): unzip it, open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked**, and choose the folder. A Chrome Web Store listing is planned.
+4. Install the [YTSoundboard Clipper extension from the Chrome Web Store](https://chromewebstore.google.com/detail/ytsoundboard-clipper/cdcjmelhnjmfgekefemeiklnlomilhhe) (the app's **Get the Chrome extension** button opens it). It also works in Edge and other Chromium browsers.
 5. On a YouTube video, click **YTSoundboard** (bottom right), pick a start and end time, assign a key, and add it.
 
 ## Stream Deck
