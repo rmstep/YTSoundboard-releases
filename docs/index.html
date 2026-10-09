@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YTSoundboard: YouTube soundboard for Discord, OBS and Stream Deck</title>
+<meta name="description" content="YTSoundboard is a free Windows soundboard. Clip any moment from a YouTube video, give it a hotkey, and play it into your mic on Discord, OBS and games, or from a Stream Deck.">
+<link rel="canonical" href="https://rmstep.github.io/YTSoundboard-releases/">
+<link rel="icon" href="favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="YTSoundboard">
+<meta property="og:title" content="YTSoundboard: YouTube soundboard for Discord, OBS and Stream Deck">
+<meta property="og:description" content="Clip any moment from YouTube and play it into your mic with a hotkey. Free for Windows.">
+<meta property="og:url" content="https://rmstep.github.io/YTSoundboard-releases/">
+<meta property="og:image" content="https://rmstep.github.io/YTSoundboard-releases/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "YTSoundboard",
+  "alternateName": ["YT Soundboard", "YouTube Soundboard"],
+  "description": "A free Windows soundboard. Clip any moment from a YouTube video, assign a hotkey, and play it into your microphone on Discord, OBS and games, or from a Stream Deck.",
+  "applicationCategory": "MultimediaApplication",
+  "operatingSystem": "Windows 10, Windows 11",
+  "url": "https://rmstep.github.io/YTSoundboard-releases/",
+  "downloadUrl": "https://github.com/rmstep/YTSoundboard-releases/releases/latest",
+  "image": "https://rmstep.github.io/YTSoundboard-releases/og.jpg",
+  "license": "https://opensource.org/licenses/MIT",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
+<style>
+  :root { --bg:#14161c; --panel:#1c1f27; --line:#2f3442; --text:#e8eaf0; --dim:#a3a9bb; --red:#ff0000; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.6 "Segoe UI", system-ui, sans-serif; }
+  a { color:#ff8a8a; }
+  .wrap { max-width:880px; margin:0 auto; padding:0 20px; }
+  header.hero { padding:64px 0 40px; background:radial-gradient(circle at 15% 20%, #3a0f12 0%, transparent 55%); }
+  .brand { display:flex; align-items:center; gap:16px; }
+  .brand img { width:72px; height:72px; }
+  h1 { font-size:clamp(34px, 6vw, 54px); line-height:1.1; margin:0; letter-spacing:-1px; }
+  .lead { font-size:clamp(18px, 3vw, 22px); color:var(--dim); margin:18px 0 28px; max-width:640px; }
+  .cta { display:flex; flex-wrap:wrap; gap:12px; }
+  .btn { display:inline-block; padding:13px 22px; border-radius:10px; font-weight:600; text-decoration:none; border:1px solid var(--line); color:var(--text); background:var(--panel); }
+  .btn.primary { background:var(--red); border-color:var(--red); color:#fff; }
+  .btn:hover { filter:brightness(1.15); }
+  .note { color:var(--dim); font-size:14px; margin-top:12px; }
+  section { padding:34px 0; border-top:1px solid var(--line); }
+  h2 { font-size:26px; margin:0 0 14px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:16px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:18px; }
+  .card h3 { margin:0 0 6px; font-size:18px; }
+  .card p { margin:0; color:var(--dim); font-size:15px; }
+  ol { padding-left:22px; } li { margin:8px 0; }
+  details { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px 16px; margin:10px 0; }
+  summary { cursor:pointer; font-weight:600; }
+  details p { color:var(--dim); margin:10px 0 2px; }
+  footer { padding:30px 0 50px; color:var(--dim); font-size:14px; border-top:1px solid var(--line); }
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <div class="brand"><img src="favicon.png" alt="YTSoundboard logo" width="72" height="72"><h1>YTSoundboard</h1></div>
+  <p class="lead">Clip any moment from a YouTube video, give it a hotkey, and play it into your mic on Discord, OBS and in games. Free for Windows. Works with Stream Deck.</p>
+  <div class="cta">
+    <a class="btn primary" href="https://github.com/rmstep/YTSoundboard-releases/releases/latest">Download for Windows</a>
+    <a class="btn" href="https://chromewebstore.google.com/detail/ytsoundboard-clipper/cdcjmelhnjmfgekefemeiklnlomilhhe">Get the Chrome extension</a>
+    <a class="btn" href="https://github.com/rmstep/YTSoundboard">Source code</a>
+  </div>
+  <p class="note">Windows 10 and 11. Free and open source (MIT). The installer is not code-signed yet, so Windows may ask you to click “More info, then Run anyway”.</p>
+</div></header>
+
+<main class="wrap">
+<section aria-labelledby="what">
+  <h2 id="what">What is YTSoundboard?</h2>
+  <p>YTSoundboard is a YouTube soundboard for Windows. You pick a start and end time on any YouTube video with the Chrome extension, and the clip becomes a sound in the app. Press its hotkey and everyone in your Discord call, stream or game hears it through your microphone, while you hear it through your speakers.</p>
+  <div class="grid">
+    <div class="card"><h3>Clip from YouTube</h3><p>Drag a start and end on the video. The extension even suggests the most replayed 7 seconds.</p></div>
+    <div class="card"><h3>Global hotkeys</h3><p>Trigger sounds with a key combination while a game or call is in focus.</p></div>
+    <div class="card"><h3>Plays into your mic</h3><p>Mixes your real mic and your sounds into a virtual microphone for Discord, OBS, Zoom and games.</p></div>
+    <div class="card"><h3>Stream Deck</h3><p>A plugin puts each sound on a key, with its name and thumbnail.</p></div>
+  </div>
+</section>
+
+<section aria-labelledby="start">
+  <h2 id="start">Get started</h2>
+  <ol>
+    <li><a href="https://github.com/rmstep/YTSoundboard-releases/releases/latest">Download and run the installer</a>.</li>
+    <li>When asked, install the free virtual microphone (VB-Cable). The app downloads it from VB-Audio and checks its signature.</li>
+    <li>In Discord, OBS or your game, choose <strong>CABLE Output</strong> as your microphone.</li>
+    <li>Add the <a href="https://chromewebstore.google.com/detail/ytsoundboard-clipper/cdcjmelhnjmfgekefemeiklnlomilhhe">YTSoundboard Clipper extension</a> to Chrome (or Edge).</li>
+    <li>Open a YouTube video, click <strong>YTSoundboard</strong>, pick your clip, press a hotkey, and add it.</li>
+  </ol>
+</section>
+
+<section aria-labelledby="faq">
+  <h2 id="faq">Frequently asked questions</h2>
+  <details><summary>Is YTSoundboard free?</summary><p>Yes. It is free and open source under the MIT license.</p></details>
+  <details><summary>Does it work with Discord, OBS and games?</summary><p>Yes. Choose “CABLE Output” as the microphone in any app. People hear your normal voice plus the sounds you trigger.</p></details>
+  <details><summary>Why does it need a virtual microphone?</summary><p>Windows cannot send audio into a microphone without a virtual audio device. YTSoundboard uses the free VB-Cable driver for this and offers to install it for you.</p></details>
+  <details><summary>Does it work with Stream Deck?</summary><p>Yes. Click “Install Stream Deck plugin” in the app, then drag “Play Sound” onto a key.</p></details>
+  <details><summary>Does it work on Mac or Linux?</summary><p>Not yet. YTSoundboard is Windows only.</p></details>
+  <details><summary>Is my data collected?</summary><p>No. Everything stays on your computer. Read the <a href="https://github.com/rmstep/YTSoundboard-releases/blob/main/PRIVACY.md">privacy policy</a>.</p></details>
+  <details><summary>Is it affiliated with YouTube?</summary><p>No. YouTube is a trademark of Google LLC. YTSoundboard is an independent project. Only clip audio you have the right to use.</p></details>
+</section>
+</main>
+
+<footer><div class="wrap">
+  YTSoundboard · <a href="https://github.com/rmstep/YTSoundboard">Source on GitHub</a> ·
+  <a href="https://github.com/rmstep/YTSoundboard-releases/releases">All releases</a> ·
+  <a href="https://github.com/rmstep/YTSoundboard-releases/blob/main/PRIVACY.md">Privacy</a> ·
+  <a href="https://github.com/rmstep/YTSoundboard-releases/issues">Support</a>
+</div></footer>
+</body>
+</html>
